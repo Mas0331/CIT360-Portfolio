@@ -13,7 +13,7 @@ public class Main
             @Override
             public void run() {                                           
                 Model model = new Model(0);
-                View view = new View("-"); 
+                View view = new View("This the view. Now push the button!"); 
                 Controller controller = new Controller(model,view);
                 controller.contol();
             }

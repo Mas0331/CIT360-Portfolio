@@ -12,7 +12,7 @@ public class Model {
         this.x = x;
     }
     
-    public void incX(){
+    public void incX(){		//A simple count function, takes an int (which starts at 0) and adds 1 to it each time you push the button
         x++;
     }
     
