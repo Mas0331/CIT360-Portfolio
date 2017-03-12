@@ -10,7 +10,7 @@ public class countATest {
 	public void test() {
 		JunitTesting test = new JunitTesting();
 		int output = test.countA("BananaRama");
-		assertEquals(7, output);
+		assertEquals(5, output);
 	}
 
 }
